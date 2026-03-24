@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAME. | Join the Crew</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@1,400;1,700&display=swap');
+        :root { --bg: #050505; --accent: #ffffff; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--bg); color: #888; scroll-behavior: smooth; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .card-team { background: #0f0f0f; border: 1px solid rgba(255,255,255,0.05); transition: 0.3s; }
+        .text-white { color: #fff; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/5 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3 text-white">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="2" y="2" width="36" height="36" rx="1"/>
+                <path d="M12 20H28M20 12V28" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span class="font-800 tracking-tighter text-xl uppercase">FRAME.</span>
+        </div>
+        <span class="text-[9px] uppercase tracking-[0.3em] font-bold opacity-40">Internal Doc</span>
+    </nav>
+
+    <section class="min-h-[70vh] flex flex-col justify-center px-8 lg:px-24 pt-32">
+        <h1 class="text-5xl md:text-8xl font-800 text-white tracking-tighter mb-8 leading-[0.9]">POĎME TO <br>NAŠTARTOVAŤ.</h1>
+        <p class="text-lg md:text-xl max-w-3xl leading-relaxed opacity-70 italic mb-10">
+            Nehľadám niekoho, kto si chce len "odtočiť svoje". Hľadám parťákov, ktorí chcú pod značkou <span class="text-white">FRAME.</span> a v spolupráci so <span class="text-white">s_stroka.vid</span> tvoriť moderný a dostupný vizuál. Nie som odborník na všetko, len sa snažím robiť veci inak a hľadám ľudí s rovnakým nastavením.
+        </p>
+    </section>
+
+    <section class="py-24 px-8 lg:px-24 bg-zinc-900/30 border-y border-white/5">
+        <div class="max-w-4xl mb-12">
+            <h2 class="serif text-4xl italic text-white mb-6 text-center md:text-left">Finančný systém</h2>
+            <p class="text-sm opacity-50 mb-4">
+                Tieto sumy sú nastavené pre aktuálny <strong>rozbeh trhu</strong>. Sú to reálne peniaze, ktoré dostaneš na ruku pri našich štartovacích balíkoch. Moja vízia je jasná: Čím budeme ako tím lepší a čím viac budeme rásť, tým vyššie budeme posúvať ceny balíkov aj tvoje odmeny.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="card-team p-8 rounded-3xl">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Kameraman</p>
+                <p class="text-3xl text-white font-800 mb-2">100€ — 150€</p>
+                <p class="text-[10px] italic opacity-50">Svadobný deň / Terén</p>
+            </div>
+            <div class="card-team p-8 rounded-3xl">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Fotograf</p>
+                <p class="text-3xl text-white font-800 mb-2">100€ — 150€</p>
+                <p class="text-[10px] italic opacity-50">Svadobný deň / Terén</p>
+            </div>
+            <div class="card-team p-8 rounded-3xl">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Video Editor</p>
+                <p class="text-3xl text-white font-800 mb-2">80€ — 130€</p>
+                <p class="text-[10px] italic opacity-50">Strih filmu + Reels</p>
+            </div>
+            <div class="card-team p-8 rounded-3xl">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Foto Editor</p>
+                <p class="text-3xl text-white font-800 mb-2">60€ — 80€</p>
+                <p class="text-[10px] italic opacity-50">Selekcia + Úprava</p>
+            </div>
+            <div class="card-team p-8 rounded-3xl">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Administratíva</p>
+                <p class="text-3xl text-white font-800 mb-2">30€ — 40€</p>
+                <p class="text-[10px] italic opacity-50">Komunikácia + Zmluvy</p>
+            </div>
+            <div class="card-team p-8 rounded-3xl border-dashed border-white/20">
+                <p class="text-[10px] uppercase font-bold mb-4 opacity-30 tracking-widest text-white">Fond Frame.</p>
+                <p class="text-3xl text-white/40 font-800 mb-2 italic">100€ — 150€</p>
+                <p class="text-[10px] italic opacity-40 italic">Reklama, web a technika</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 lg:px-24">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h3 class="text-4xl font-800 text-white mb-8 tracking-tighter uppercase">PREČO DO TOHO ÍSŤ?</h3>
+                <div class="space-y-12 text-base">
+                    <div class="flex gap-6">
+                        <span class="text-white font-800 opacity-20 text-5xl">01</span>
+                        <div>
+                            <p class="font-bold text-white mb-2 uppercase text-xs tracking-widest">Kurzy & Rozvoj</p>
+                            <p class="text-sm opacity-60 leading-relaxed italic">Z firemného fondu plánujeme časom <strong>preplácať odborné kurzy a workshopy</strong>. Chcem, aby ste sa rozvíjali, pretože čím lepšie veci budeme robiť, tým viac budeme všetci zarábať.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <span class="text-white font-800 opacity-20 text-5xl">02</span>
+                        <div>
+                            <p class="font-bold text-white mb-2 uppercase text-xs tracking-widest">Spoločné Know-how</p>
+                            <p class="text-sm opacity-60 leading-relaxed italic">Budeme si navzájom odovzdávať skúsenosti s gradingom, technikou točenia a úpravou. Cieľom je mať jeden zjednotený, moderný štýl, ktorý nás odlíši.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <span class="text-white font-800 opacity-20 text-5xl">03</span>
+                        <div>
+                            <p class="font-bold text-white mb-2 uppercase text-xs tracking-widest">Štart kariéry</p>
+                            <p class="text-sm opacity-60 leading-relaxed italic">Tvoja práca bude videná pod značkou <strong>FRAME.</strong>, čo je ideálny odrazový mostík. Nehľadám zamestnancov, ale parťákov na dlhodobú cestu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-10 bg-white text-black rounded-[2.5rem] text-center shadow-2xl">
+                <h4 class="serif text-3xl italic mb-6">Máš chuť makať?</h4>
+                <p class="text-sm opacity-70 mb-10 leading-relaxed">
+                    Ak ťa baví vizuál a chceš byť pri zrode niečoho nového na Orave, ozvi sa mi. Ukáž mi svoje veci a skúsime to prepojiť.
+                </p>
+                <a href="https://instagram.com/s_stroka.vid" target="_blank" class="block w-full py-5 bg-black text-white rounded-2xl font-bold uppercase text-[10px] tracking-[0.2em]">Napíš na @s_stroka.vid</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center">
+        <p class="text-[8px] uppercase tracking-[0.6em] opacity-20 italic font-bold text-white">FRAME. | s_stroka.vid | 2026</p>
+    </footer>
+
+</body>
+</html>
